@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Travel.CoreLayer.Entity
+namespace Travel.CoreLayer.DTO.District
 {
-    internal class Location
+    public class DistrictViewDTO
     {
+      
     }
 }
