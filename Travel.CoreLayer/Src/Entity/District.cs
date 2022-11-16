@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,15 +26,13 @@ namespace Travel.CoreLayer.Entity
         }
         public void Activate()
         {
-            Status=StatusActive;
+            Status = StatusActive;
         }
-        public void Deactivate()
+        public void DeActivate()
         {
             Status = StatusDeactive;
         }
-        public Boolean isActive()
-        {
-            return Status == StatusActive;
-        }
+
+        List<Destination> Destinations = new List<Destination>();
     }
 }
