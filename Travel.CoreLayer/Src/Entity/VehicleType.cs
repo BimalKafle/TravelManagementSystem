@@ -11,15 +11,32 @@ namespace Travel.CoreLayer.Entity
 {
     public class VehicleType
     {
+        public readonly string StatusActive = "Active";
+
+        public readonly string StatusDeactive = "Deactive";
         public virtual int Id { get; protected set; }
         public virtual string Name { get; protected set; }
+        public virtual string Status { get; protected set; }
+
         List<Vehicle> Vehicles = new List<Vehicle>();
 
-        public VehicleType(string _name, string _number, string _color)
+        public VehicleType(string _name)
         {
             Name = _name;
-            Number = _number;
-            Color = _color;
+        }
+        public void Active()
+        {
+            Status = StatusActive;
+        }
+
+        public void Deactive()
+        {
+            Status = StatusDeactive;
+        }
+
+        public Boolean IsActive()
+        {
+
         }
     }
 }

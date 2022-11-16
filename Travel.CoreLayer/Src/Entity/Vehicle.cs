@@ -9,10 +9,6 @@ namespace Travel.CoreLayer.Entity
 {
     public class Vehicle
     {
-        List<Vehicle> vehicles = new Vehicle()
-        {
-
-        }
         public readonly string StatusAvailable = "Available";
 
         public readonly string StatusNotAvailable = "NotAvailable";
