@@ -19,8 +19,10 @@ namespace Travel.CoreLayer.Entity
         {
             Name = _name;
             Location = _location;
+           
         }
-        private Hotel() { }
+   
+        public  Hotel() { }
         public void Open()
         {
             Status = StatusOpen;

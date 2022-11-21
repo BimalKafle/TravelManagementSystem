@@ -33,6 +33,10 @@ namespace Travel.CoreLayer.Entity
             Status = StatusDeactive;
         }
 
-        List<Destination> Destinations = new List<Destination>();
+        public Boolean IsActive()
+        {
+            return Status == StatusActive;
+        }
+     
     }
 }

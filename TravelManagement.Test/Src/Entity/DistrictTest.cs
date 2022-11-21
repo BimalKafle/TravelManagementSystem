@@ -30,8 +30,6 @@ namespace TravelManagement.Test.Entity
         public void Test_IsDeactive_returns_true_if_class_is_deactive()
         {
             District district = new District("Sarlahi");
-            DistrictChild child = new DistrictChild();
-            child.Name = "kishan";
             district.DeActivate();
             Assert.False(district.IsActive());
         }
