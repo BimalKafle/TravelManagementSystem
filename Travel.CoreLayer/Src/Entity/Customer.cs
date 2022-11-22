@@ -8,5 +8,5 @@ namespace Travel.CoreLayer.Entity
 {
     internal class Customer
     {
-    }
+    } 
 }
