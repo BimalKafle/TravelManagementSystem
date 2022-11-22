@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Src\DTO\" />
-    <Folder Include="Src\Exception\" />
     <Folder Include="Src\Helper\" />
-    <Folder Include="Src\Repository\" />
-    <Folder Include="Src\Services\" />
   </ItemGroup>
 
 </Project>
